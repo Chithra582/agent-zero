@@ -1,41 +1,18 @@
 ---
 name: a0-create-plugin
-description: "Build, improve, review or publish Agent Zero plugins; local or community, with focused references."
-version: 2.0.0
-tags: [plugins, create, develop, review, publish, debug]
-triggers:
-  - create plugin
-  - build plugin
-  - new plugin
-  - develop plugin
-  - write plugin
-  - plugin template
-  - improve plugin
-  - review plugin
-  - audit plugin
-  - validate plugin
-  - check plugin
-  - plugin review
-  - is my plugin correct
-  - plugin checklist
-  - contribute plugin
-  - publish plugin
-  - share plugin
-  - submit plugin
-  - contribute to plugin hub
-  - community plugin
-  - open source plugin
-  - debug plugin
-  - troubleshoot plugin
-  - fix plugin
-  - plugin not working
-  - plugin not loading
-  - plugin not showing
-  - plugin broken
-  - plugin error
-  - plugin missing
-  - plugin crash
-  - how does the plugin system work
+description: Build, improve, review or publish Agent Zero plugins; local or community,
+  with focused references.
+metadata:
+  version: 2.0.0
+  tags: '["plugins", "create", "develop", "review", "publish", "debug"]'
+  triggers: '["create plugin", "build plugin", "new plugin", "develop plugin", "write
+    plugin", "plugin template", "improve plugin", "review plugin", "audit plugin",
+    "validate plugin", "check plugin", "plugin review", "is my plugin correct", "plugin
+    checklist", "contribute plugin", "publish plugin", "share plugin", "submit plugin",
+    "contribute to plugin hub", "community plugin", "open source plugin", "debug plugin",
+    "troubleshoot plugin", "fix plugin", "plugin not working", "plugin not loading",
+    "plugin not showing", "plugin broken", "plugin error", "plugin missing", "plugin
+    crash", "how does the plugin system work"]'
 ---
 
 # Agent Zero Plugin Development

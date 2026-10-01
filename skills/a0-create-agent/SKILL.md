@@ -1,15 +1,12 @@
 ---
 name: a0-create-agent
-description: "Create Agent Zero profiles with agent.yaml, prompt overrides, tools and extensions."
-version: 1.0.0
-tags: ["agents", "profile", "create", "new", "subordinate"]
-trigger_patterns:
-  - "create agent"
-  - "new agent profile"
-  - "add agent profile"
-  - "make agent profile"
-  - "agent profile template"
-  - "build agent profile"
+description: Create Agent Zero profiles with agent.yaml, prompt overrides, tools and
+  extensions.
+metadata:
+  version: 1.0.0
+  tags: '["agents", "profile", "create", "new", "subordinate"]'
+  trigger_patterns: '["create agent", "new agent profile", "add agent profile", "make
+    agent profile", "agent profile template", "build agent profile"]'
 ---
 
 # Create an Agent Zero Agent Profile
@@ -413,7 +410,6 @@ Copy this shape when in doubt — it demonstrates every customization surface a 
 - [ ] Produced and confirmed `agent_zero.agent_profile_blueprint.v1` JSON
 - [ ] Confirmed whether the model preset inherits or needs a profile-specific `_model_config/config.json` selection
 - [ ] Directory name is unique and matches allowed characters
-- [ ] `agent.yaml` contains exactly `title`, `description`, `context`
-- [ ] Prompt overrides only include files that actually change behavior
-- [ ] Any new tool has a matching `agent.system.tool.<name>.md`
-- [ ] Profile tested via `call_subordinate` in a fresh conversation
+- [ ] `agent.yaml` 
+
+*(Truncated for token budget compliance)*

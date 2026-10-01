@@ -1,0 +1,19 @@
+name: "terminal-code-executor"
+description: "Executes sandboxed bash and python code inside the agent-zero environment."
+input_schema:
+  type: object
+  properties:
+    language:
+      type: string
+      description: "Execution runtime environment."
+      enum: ["bash", "python"]
+    code:
+      type: string
+      description: "Code snippet or shell command string to execute."
+    timeout_seconds:
+      type: integer
+      description: "Maximum execution time in seconds."
+      default: 60
+  required:
+    - language
+    - code

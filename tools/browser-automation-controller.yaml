@@ -1,0 +1,20 @@
+name: "browser-automation-controller"
+description: "Controls headless browser navigation, element interactions, and web data extraction."
+input_schema:
+  type: object
+  properties:
+    action:
+      type: string
+      description: "Browser action to perform."
+      enum: ["navigate", "click", "type", "extract_text", "screenshot"]
+    url:
+      type: string
+      description: "Target URL for navigation."
+    selector:
+      type: string
+      description: "CSS selector or element handle for interaction."
+    input_text:
+      type: string
+      description: "Text to type into input fields."
+  required:
+    - action

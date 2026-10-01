@@ -1,6 +1,7 @@
 ---
 name: scheduled-tasks
-description: "Create, edit, run or audit scheduled, planned and adhoc tasks; cron, timezones and reminders."
+description: Create, edit, run or audit scheduled, planned and adhoc tasks; cron,
+  timezones and reminders.
 ---
 
 # Scheduler Tasks

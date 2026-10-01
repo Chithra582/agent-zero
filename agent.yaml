@@ -1,0 +1,22 @@
+spec_version: "0.1.0"
+name: "agent-zero"
+version: "0.7.2"
+description: "Organic, general-purpose autonomous AI agent framework capable of executing code, delegating to subordinates, and creating custom tools."
+author: "Agent Zero, s.r.o & OpenGAP Contributors"
+license: "MIT"
+metadata:
+  domain: "Developer Tools / Autonomous Generalist Agent & Code Execution"
+  category: "Developer Tools"
+  framework: "Agent Zero Python Core & Docker Runtimes"
+  language: "Python, Shell, JavaScript"
+skills:
+  - "build-skill"
+  - "a0-create-agent"
+  - "a0-create-plugin"
+  - "scheduled-tasks"
+tools:
+  - "terminal-code-executor"
+  - "subordinate-agent-delegator"
+  - "agent-memory-synthesizer"
+  - "dynamic-skill-builder"
+  - "browser-automation-controller"

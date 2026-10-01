@@ -1,28 +1,16 @@
 ---
 name: a0-manage-plugin
-description: "Find useful Plugin Index matches; inspect, scan, install, update and manage Agent Zero plugins."
-version: 2.0.0
-tags: [plugins, discovery, recommend, install, update, scan, manage, plugin-hub]
-triggers:
-  - find plugins
-  - useful plugins
-  - recommend plugins
-  - recommend a plugin
-  - plugin recommendations
-  - scan plugin index
-  - browse plugins
-  - search plugins
-  - plugin hub
-  - plugin index
-  - list plugins
-  - install plugin
-  - uninstall plugin
-  - remove plugin
-  - delete plugin
-  - update plugin
-  - scan plugin
-  - enable plugin
-  - disable plugin
+description: Find useful Plugin Index matches; inspect, scan, install, update and
+  manage Agent Zero plugins.
+metadata:
+  version: 2.0.0
+  tags: '["plugins", "discovery", "recommend", "install", "update", "scan", "manage",
+    "plugin-hub"]'
+  triggers: '["find plugins", "useful plugins", "recommend plugins", "recommend a
+    plugin", "plugin recommendations", "scan plugin index", "browse plugins", "search
+    plugins", "plugin hub", "plugin index", "list plugins", "install plugin", "uninstall
+    plugin", "remove plugin", "delete plugin", "update plugin", "scan plugin", "enable
+    plugin", "disable plugin"]'
 ---
 
 # Agent Zero Plugin Management

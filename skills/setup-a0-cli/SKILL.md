@@ -1,12 +1,10 @@
 ---
 name: setup-a0-cli
-description: "Install, connect or troubleshoot A0 CLI host access, local files and remote tools."
-triggers:
-  - "install A0"
-  - "connect local files"
-  - "enable host connector"
-  - "A0 CLI setup"
-  - "host vs container"
+description: Install, connect or troubleshoot A0 CLI host access, local files and
+  remote tools.
+metadata:
+  triggers: '["install A0", "connect local files", "enable host connector", "A0 CLI
+    setup", "host vs container"]'
 ---
 
 # A0 CLI Host Setup

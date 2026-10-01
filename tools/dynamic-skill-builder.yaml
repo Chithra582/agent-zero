@@ -1,0 +1,18 @@
+name: "dynamic-skill-builder"
+description: "Inspects, creates, and refines reusable agent skills and execution procedures."
+input_schema:
+  type: object
+  properties:
+    action:
+      type: string
+      description: "Skill management action."
+      enum: ["create", "update", "list", "inspect"]
+    skill_name:
+      type: string
+      description: "Identifier of the target skill."
+    skill_content:
+      type: string
+      description: "Markdown instructions for the skill when creating or updating."
+  required:
+    - action
+    - skill_name

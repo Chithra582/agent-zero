@@ -1,0 +1,19 @@
+name: "agent-memory-synthesizer"
+description: "Manages persistent associative memory, embeddings, and context recall across sessions."
+input_schema:
+  type: object
+  properties:
+    operation:
+      type: string
+      description: "Memory operation to execute."
+      enum: ["query", "insert", "delete", "consolidate"]
+    query_text:
+      type: string
+      description: "Search text or memory content."
+    top_k:
+      type: integer
+      description: "Number of relevant memory items to retrieve."
+      default: 5
+  required:
+    - operation
+    - query_text

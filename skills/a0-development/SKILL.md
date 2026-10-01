@@ -1,35 +1,20 @@
 ---
 name: a0-development
-description: "Develop or operate Agent Zero: projects, chats, tasks, framework, tools and API/WebUI."
-version: 1.1.0
-author: Agent Zero Team
-tags: ["development", "framework", "agent-zero", "extending", "tools", "extensions", "skills", "api", "agents", "prompts", "dox"]
-trigger_patterns:
-  - "extend agent zero"
-  - "agent zero development"
-  - "build agent zero feature"
-  - "create agent zero tool"
-  - "add extension"
-  - "framework development"
-  - "agent zero architecture"
-  - "how does agent zero work"
-  - "create agent zero extension"
-  - "add api endpoint"
-  - "create agent profile"
-  - "agent zero internals"
-  - "how does the agent loop work"
-  - "extension hook points"
-  - "prompt system"
-  - "agent profile"
-  - "dox"
-  - "manage Agent Zero projects"
-  - "create Agent Zero chat"
-  - "Agent Zero API"
-  - "create project"
-  - "activate project"
-  - "project instructions"
-  - "create chat"
-  - "new chat"
+description: 'Develop or operate Agent Zero: projects, chats, tasks, framework, tools
+  and API/WebUI.'
+metadata:
+  version: 1.1.0
+  author: Agent Zero Team
+  tags: '["development", "framework", "agent-zero", "extending", "tools", "extensions",
+    "skills", "api", "agents", "prompts", "dox"]'
+  trigger_patterns: '["extend agent zero", "agent zero development", "build agent
+    zero feature", "create agent zero tool", "add extension", "framework development",
+    "agent zero architecture", "how does agent zero work", "create agent zero extension",
+    "add api endpoint", "create agent profile", "agent zero internals", "how does
+    the agent loop work", "extension hook points", "prompt system", "agent profile",
+    "dox", "manage Agent Zero projects", "create Agent Zero chat", "Agent Zero API",
+    "create project", "activate project", "project instructions", "create chat", "new
+    chat"]'
 ---
 
 # Agent Zero Development

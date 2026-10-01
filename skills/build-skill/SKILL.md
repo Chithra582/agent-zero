@@ -1,6 +1,7 @@
 ---
 name: build-skill
-description: "Create, rename, move, audit, test or refine Agent Zero skills and reusable workflows."
+description: Create, rename, move, audit, test or refine Agent Zero skills and reusable
+  workflows.
 ---
 
 # Build Skill
